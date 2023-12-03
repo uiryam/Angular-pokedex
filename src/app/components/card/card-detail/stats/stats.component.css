@@ -1,0 +1,37 @@
+.card-stats__detail {
+	/* Estilos para a segunda parte do painel */
+	padding: 10px 0; /* Adicione um espaçamento superior e inferior para separar as partes */
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+	grid-column-gap: 5px;
+	font-size: medium;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.card-stats__detail__label {
+	/* Estilos para as etiquetas de estatísticas na segunda parte */
+	text-align: left;
+	margin-left: 2px; /* Espaço à esquerda para alinhar com a barra de progresso */
+
+}
+
+.card-stats__detail__value {
+	/* Estilos para os valores de estatísticas na segunda parte */
+	text-align: center;
+	margin-right: 2px; /* Espaço à direita para alinhar com a barra de progresso */
+	width: 25px;
+
+}
+
+.card-stats__detail__dados {
+	/* Estilos para os valores de estatísticas na segunda parte */
+	width: 140px;
+	height: 25px;
+
+	border: 3px solid rgba(0, 0, 0, 0.5);
+	border-radius: 8px;
+
+	padding: 3px;
+}

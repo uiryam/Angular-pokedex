@@ -1,0 +1,32 @@
+<div class="card-detail__container">
+
+	<img
+    class="card-detail__img"
+    [src]=[cardImg]
+    alt=""
+  >
+
+	<div class="card-detail__botom">
+
+		<app-type
+      class="card-detail__botom__type"
+
+      [cardType] = cardType
+    >
+    </app-type>
+
+		<app-stats
+			class="card-detail__botom__stats"
+
+			cardHP = "{{cardHP}}"
+			cardAttack = "{{cardAttack}}"
+			cardDefense = "{{cardDefense}}"
+			cardSPAtk = "{{cardSPAtk}}"
+			cardSPDef = "{{cardSPDef}}"
+			cardSpeed = "{{cardSpeed}}"
+
+		>
+	</app-stats>
+
+	</div>
+</div>

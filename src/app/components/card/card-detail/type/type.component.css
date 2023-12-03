@@ -1,0 +1,25 @@
+.type__container > ul {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+
+	list-style: none;
+
+}
+
+.type__container > ul > li {
+	color: black;
+	background-color: rgb(173, 199, 230);
+
+	padding: 5px;
+	margin: 5px;
+
+	width: 80px;
+
+	border-radius: 20px;
+
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 12px;
+	font-weight: bold;
+}

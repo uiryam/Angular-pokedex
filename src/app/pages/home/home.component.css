@@ -1,0 +1,30 @@
+.home__container {
+	width: 90%;
+	margin: auto;
+	padding-top: 50px;
+	display: flex;
+
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.pagination button{
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  color: black;
+  padding: .25rem .5rem;
+  margin: .25rem 0;
+  font-size: .750rem;
+  font-weight:800;
+  cursor: pointer;
+}

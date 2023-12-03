@@ -1,0 +1,25 @@
+<div class="home__container" *ngIf="pokemonList">
+  <ng-container *ngFor="let pokemon of pokemonList">
+    <app-card
+      [cardPokemonName] = "pokemon.name | uppercase"
+      [cardID] = "pokemon.id"
+      [cardImg]= "pokemon.sprites.other.dream_world.front_default"
+
+      [cardType]= "pokemon.types"
+
+      [cardHP] = "pokemon.stats[0].base_stat"
+      [cardAttack] = "pokemon.stats[1].base_stat"
+      [cardDefense] = "pokemon.stats[2].base_stat"
+      [cardSPAtk] = "pokemon.stats[3].base_stat"
+      [cardSPDef] = "pokemon.stats[4].base_stat"
+      [cardSpeed] = "pokemon.stats[5].base_stat"
+
+    >
+    </app-card>
+  </ng-container>
+</div>
+<div class="pagination">
+  <button type="button" class="loadmore" (click)="loadMorePokemons()">
+      Carregar Mais
+  </button>
+</div>
